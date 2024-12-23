@@ -10,4 +10,7 @@
 }
 header {
     width: 100%;
+    background-color: var(--color-header);
+    color: white;
+    text-align: center;
 }
