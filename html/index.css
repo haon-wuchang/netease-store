@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --color-header: rgb(36, 40, 51);   
+}
+.container{
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+}
