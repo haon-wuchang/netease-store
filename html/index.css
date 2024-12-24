@@ -4,6 +4,7 @@
 }
 :root {
     --color-header: rgb(36, 40, 51);   
+    --color-font :rgb(187, 187, 187);
 }
 .container{
     margin: 0 auto;
@@ -13,4 +14,91 @@ header {
     background-color: var(--color-header);
     color: white;
     text-align: center;
+    margin: auto;
+}
+.width{
+    width: 1200px;
+    margin: auto;
+}
+/*******************************
+***********header*****************
+**********************************/
+
+.header--top, .header--bottom{
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header--top--right {
+    display: flex;
+    gap: 10px;
+}
+.header--top--logo a {
+    color: white;
+    padding: 5px 7px;
+    text-decoration: none;
+}
+.header--top--logo i {
+    font-size: 18px;
+}
+.select1, .select2 {
+    border: none;
+    background-color: var(--color-header);
+    color: white;
+}
+.select1:hover, .select2:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+/*********header-bottom************/
+.header--bottom{
+    padding: 25px 0;
+}
+.header--title {
+    color: var(--color-font);
+    text-decoration: none;
+    font-size: 26px;
+    /* border: 1px solid orange; */
+}
+.header--title:hover{
+    color: white;
+}
+.header--menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+    color: var(--color-font);
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    /* border: 1px solid orange; */
+}
+.header--menu li{
+    /* border: 1px solid orange; */
+    position: relative;
+}
+.header--menu li:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+.header--menu--code {
+    position: absolute;
+    font-size: 20px;
+    top: -12px;
+    right: -20px;
+    /* border: 1px solid red; */
+}
+
+.header--bottom--right--logo a {
+    text-decoration: none;
+    padding: 5px 7px;
+    
+}
+.header--bottom--right--logo i {
+    font-size: 18px;
+    color: white
 }
