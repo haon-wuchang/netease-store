@@ -54,6 +54,9 @@ header {
     color: white;
     cursor: pointer;
 }
+.header--top--middle:hover{
+    text-decoration: underline;
+}
 /*********header-bottom************/
 .header--bottom{
     padding: 25px 0;
@@ -144,7 +147,7 @@ header {
     /* background-color: aqua; */
 }
 .item1{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 10px;
 }
 .item1 img {
